@@ -8,44 +8,6 @@ Ensure you have the following prerequisites before deploying this Terraform scri
 
 - Terraform CLI installed.
 
-## Usage
-
-Follow these steps to deploy the Azure Application Gateway:
-
-1. Clone the repository:
-
-```bash
-git clone <repository_url>
-```
-
-2. Navigate to the directory containing the Terraform scripts:
-
-```bash
-cd <repository_directory>
-```
-
-3. Modify the `variables.tf` file according to your requirements.
-
-4. Initialize the Terraform configuration:
-
-```bash
-terraform init
-```
-
-5. View the execution plan:
-
-```bash
-terraform plan
-```
-
-6. Deploy the Azure resources:
-
-```bash
-terraform apply
-```
-
-7. Confirm the deployment by typing `yes` when prompted.
-
 ## Variables
 
 ### Input Variables
